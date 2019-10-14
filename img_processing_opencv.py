@@ -29,7 +29,7 @@ split = []
 sum = 0
 print('b')
 
-
+img = cv2.imread('C:/Users/Lenovo/Desktop/data/196.jpg')
 
 for path, subdirs, files in os.walk('C:/Users/Lenovo/Desktop/data/English/Img/GoodImg/Bmp/'):
     for filename in files:
@@ -93,6 +93,14 @@ l1 = np.array(l1)
 
         
 
+#ks = [im  for im in k if [im.find(st)>0 for st in l].count(True)>0]
+
+
+#for im in files:
+#    for ct in l:
+#        if im.find(ct)>0:
+#            kk.append(im)
+#            break
 
 
 
